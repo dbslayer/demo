@@ -3,4 +3,4 @@
 set -o pipefail
 set -o nounset
 
-ochrona --debug --report_type JSON --output .
+pip freeze | ochrona --debug --report_type JSON --output .
